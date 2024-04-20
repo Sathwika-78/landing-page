@@ -1,0 +1,130 @@
+/* CSS styles for KFC landing page */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #C8102E;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header img {
+    height: 50px; /* Adjust as necessary */
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('kfc_hero_image.jpg') no-repeat center center/cover;
+    color: #eb0909;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #C8102E;
+    color: #e8e1e1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #9E0B21;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background: #C8102E;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    max-width: 200px; /* Adjust as necessary */
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 20px;
+}
+
+.locations-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+    margin-top: 20px;
+}
+
+.locations-list li {
+    width: 45%; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.location-info {
+    margin-left: 20px;
+}
+
+.location-info strong {
+    display: block;
+    margin-bottom: 10px;
+}
